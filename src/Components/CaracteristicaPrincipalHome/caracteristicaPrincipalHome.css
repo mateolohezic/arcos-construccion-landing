@@ -1,0 +1,34 @@
+.contenedorCaracteristicaHome{
+    width: 1184px;
+    padding: 6rem 0rem 0rem 0rem;
+    margin: auto;
+    text-align: center;
+}
+
+.contenedorCaracteristicaHome h2{
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 800;
+}
+
+.contenedorCaracteristicaHome h5{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgb(21, 21, 21, 0.2);
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.contenedorCaracteristicaHome p{
+    margin-top: 1.5rem;
+    color: var(--azul);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}

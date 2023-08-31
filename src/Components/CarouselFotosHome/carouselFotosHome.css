@@ -1,0 +1,23 @@
+.carouselFotosHome{
+    padding-block: 3rem;
+}
+
+.itemCarouselFotosHome{
+    width: 98%;
+    transition: all .3s ease;
+}
+
+.itemCarouselFotosHome img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.itemCarouselFotosHome:hover{
+    position: relative;
+    transform: translateY(-2rem);
+}
+
+.itemCarouselFotosHome:hover img{
+    filter: none;
+}

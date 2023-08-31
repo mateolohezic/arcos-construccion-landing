@@ -1,0 +1,53 @@
+.contenedorEmpresasClientesHome{
+    padding-block: 6rem 9rem;
+}
+
+.contenedorEmpresasClientesHome h2{
+    width: 1184px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 3rem;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.contenedorEmpresasClientesHome p{
+    width: 1000px;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--azul);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+}
+
+.contenedorCarouselEmpresasClientesHome{
+    margin-top: 2rem;
+    position: relative;
+}
+
+.itemCarouselEmpresasClientesHome{
+    width: 100%;
+}
+
+.itemCarouselEmpresasClientesHome img{
+    width: 75%;
+}
+
+.dotsCarouselAnuncios{
+    bottom: -3rem;
+}
+
+.dotsCarouselAnuncios button{
+    border: none;
+    background: rgb(36, 34, 89, 0.3);
+    transition: none;
+}
+
+.react-multi-carousel-dot.react-multi-carousel-dot--active button{
+    background: var(--azul);
+}

@@ -1,0 +1,146 @@
+.contenedorServiciosHome{
+    background-color: var(--azul-oscuro);
+    width: 100%;
+    padding: 6rem 0rem 6rem 0rem;
+}
+
+.contenidoServiciosHome{
+    width: 1184px;
+    margin: auto;
+    padding: 0;
+}
+
+.contenidoServiciosHome h2{
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 800;
+}
+
+.contenidoServiciosHome > h5{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 300;
+}
+
+.contenedorCardsServiciosHome{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    row-gap: 3rem;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.cardServiciosHome{
+    width: 40%;
+    background-color: var(--blanco);
+    text-align: center;
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.cardServiciosHome h4{
+    width: 100%;
+    font-family: var(--font-avant);
+    color: var(--azul);
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 800;
+}
+
+.cardServiciosHome h5{
+    width: 100%;
+    margin-top: 0.5rem;
+    color: var(--azul);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    height: 40px;
+}
+
+.cardServiciosHome img{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+
+.cardServiciosHome p{
+    width: 100%;
+    margin-top: 2rem;
+    color: var(--negro);
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.15rem;
+    font-weight: 400;
+    flex-grow: 1;
+}
+
+.leerMasCardServiciosHome{
+    margin-top: 2rem;
+    text-align: end;
+}
+
+.leerMasCardServiciosHome a{
+    background-color: var(--azul);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .3s ease;
+    position: relative;
+}
+
+.leerMasCardServiciosHome a svg{
+    margin-left: 0.5rem;
+    position: absolute;
+    opacity: 0;
+    top: 52%;
+    transform: translateY(-50%);
+    right: 100%;
+    transition: all .3s ease;
+}
+
+.leerMasCardServiciosHome a:hover{
+    opacity: 0.8;
+    padding-right: 2.5rem;
+}
+
+.leerMasCardServiciosHome a:hover svg{
+    opacity: 0.8;
+    right: 0.5rem;
+}
+
+.confianzaServiciosHome{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.confianzaServiciosHome h3{
+    color: var(--blanco);
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-weight: 300;
+}
+
+.confianzaServiciosHome img{
+    margin-top: 2rem;
+    width: 10%;
+}

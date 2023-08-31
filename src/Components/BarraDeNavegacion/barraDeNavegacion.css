@@ -75,7 +75,7 @@
     position: absolute;
     height: 6px;
     width: 100%;
-    background: #FFFFFF;
+    background: var(--azul-oscuro);
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -148,7 +148,11 @@
 @media (max-width: 576px){
     
     .navbar-brand{
-        width: 30%;
+        width: 40px;
+    }
+
+    .navbarSection2{
+        display: none;
     }
 }
 

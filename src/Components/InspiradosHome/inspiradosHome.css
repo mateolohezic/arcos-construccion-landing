@@ -1,0 +1,67 @@
+.contenedorInspiradosHome{
+    width: 100%;
+    padding-block: 8rem;
+    background-image: url("../../assets/arcoTriunfo6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: center 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardInspiradosHome{
+    width: 900px;
+    padding: 4rem 2rem;
+    background-color: var(--blanco);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoInspiradosHome{
+    width: 65%;
+}
+
+.textoInspiradosHome h2{
+    color: var(--azul);
+    text-align: center;
+    font-family: var(--font-avant);
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.textoInspiradosHome b{
+    color: var(--azul);
+    font-family: var(--font-avant);
+    font-weight: 900;
+}
+
+.textoInspiradosHome p{
+    margin-top: 1rem;
+    color: var(--negro);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.textoInspiradosHome h5{
+    margin-top: 1.5rem;
+    color: var(--azul);
+    text-align: center;
+    font-family: var(--font-avant);
+    font-size: 1.5rem;
+}
+
+.logoInspiradosHome{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoInspiradosHome img{
+    width: 50%;
+}
