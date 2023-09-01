@@ -30,27 +30,18 @@ function CarouselFotosHome() {
         }
     };
 
+    const fotos = [ foto1, foto2, foto3, foto4, foto5, foto6 ]
+
     return (
     <>
         <Carousel infinite autoPlay pauseOnHover centerMode arrows={false} containerClass='carouselFotosHome' responsive={responsiveCarousel}>
-            <div className='itemCarouselFotosHome'>
-                <img src={foto1} alt="Arcos Construcción en acción" />
-            </div>
-            <div className='itemCarouselFotosHome'>
-                <img src={foto2} alt="Arcos Construcción en acción" />
-            </div>
-            <div className='itemCarouselFotosHome'>
-                <img src={foto3} alt="Arcos Construcción en acción" />
-            </div>
-            <div className='itemCarouselFotosHome'>
-                <img src={foto4} alt="Arcos Construcción en acción" />
-            </div>
-            <div className='itemCarouselFotosHome'>
-                <img src={foto5} alt="Arcos Construcción en acción" />
-            </div>
-            <div className='itemCarouselFotosHome'>
-                <img src={foto6} alt="Arcos Construcción en acción" />
-            </div>
+            {
+            fotos.map( foto => (
+                <div className='itemCarouselFotosHome' key={foto}>
+                    <img src={foto} alt="Arcos Construcción en acción" draggable={false}/>
+                </div>
+            ))
+            }
         </Carousel>
     </>
     )

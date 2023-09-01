@@ -58,6 +58,44 @@ function EmpresasClientesHome() {
         }
     };
 
+    const logos = [
+        { src: foto1, alt: 'Azúcar Bermejo Bolivia' },
+        { src: foto2, alt: 'Calsa' },
+        { src: foto3, alt: 'Cencosud' },
+        { src: foto4, alt: 'Citrusvil' },
+        { src: foto5, alt: 'Scania' },
+        { src: foto6, alt: 'Coca Cola' },
+        { src: foto7, alt: 'Pepsi' },
+        { src: foto8, alt: 'Covemat' },
+        { src: foto9, alt: 'Di Bacco' },
+        { src: foto10, alt: 'Tensolite' },
+        { src: foto11, alt: 'Grupo Estisol' },
+        { src: foto12, alt: 'Industria del Trigo' },
+        { src: foto13, alt: 'Ingenio La Corona' },
+        { src: foto14, alt: 'Ingenio La Esperanza' },
+        { src: foto15, alt: 'Ingenio Leales' },
+        { src: foto16, alt: 'Ingenio San Juan' },
+        { src: foto17, alt: 'Ingenio Santa Barbara' },
+        { src: foto18, alt: 'Ingenio Santa Rosa' },
+        { src: foto19, alt: 'Jockey Tucumán' },
+        { src: foto20, alt: 'La Panerita' },
+        { src: foto21, alt: 'Libertad' },
+        { src: foto22, alt: 'Litoral Citrus' },
+        { src: foto23, alt: 'Conecta Ingeniería' },
+        { src: foto24, alt: 'Pramarco' },
+        { src: foto25, alt: 'Produnoa' },
+        { src: foto26, alt: 'Rivoli' },
+        { src: foto27, alt: 'San Miguel' },
+        { src: foto28, alt: 'Santiago Del Estero' },
+        { src: foto29, alt: 'Club Universitario Tucumán' },
+        { src: foto30, alt: 'El Liberal' },
+        { src: foto31, alt: 'UNSE' },
+        { src: foto32, alt: 'UNSTA' },
+        { src: foto33, alt: 'Universidad Nacional Tucumán' },
+        { src: foto34, alt: 'VHA Empresa Constructora S.A.' },
+        { src: foto35, alt: 'Viluco' },
+      ];
+
     return (
     <>
         <div className='contenedorEmpresasClientesHome'>
@@ -65,111 +103,13 @@ function EmpresasClientesHome() {
             <p>Estas empresas ya confiaron en nosotros, consiguiendo un servicio de excelencia y calidad en cada paso.</p>
             <div className='contenedorCarouselEmpresasClientesHome'>
                 <Carousel infinite autoPlay pauseOnHover centerMode arrows={false} containerClass='carouselEmpresasClientesHome' showDots={true} renderDotsOutside={true} dotListClass="dotsCarouselAnuncios" responsive={responsiveCarousel}>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto1} alt="Azúcar Bermejo Bolivia Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto2} alt="Calsa Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto3} alt="Cencosud Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto4} alt="Citrusvil Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto5} alt="Scania Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto6} alt="Coca Cola Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto7} alt="Pepsi Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto8} alt="Covemat Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto9} alt="Di Bacco Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto10} alt="Tensolite Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto11} alt="Grupo Estisol Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto12} alt="Industria del Trigo Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto13} alt="Ingenio La Corona Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto14} alt="Ingenio La Esperanza Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto15} alt="Ingenio Leales Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto16} alt="Ingenio San Juan Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto17} alt="Ingenio Santa Barbara Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto18} alt="Ingenio Santa Rosa Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto19} alt="Jockey Tucumán Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto20} alt="La Panerita Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto21} alt="Libertad Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto22} alt="Litoral Citrus Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto23} alt="Conecta Ingeniería Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto24} alt="Pramarco Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto25} alt="Produnoa Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto26} alt="Rivoli Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto27} alt="San Miguel Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto28} alt="Santiago Del Estero Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto29} alt="Club Universitario Tucumán Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto30} alt="El Liberal Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto31} alt="UNSE Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto32} alt="UNSTA Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto33} alt="Universidad Nacional Tucumán Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto34} alt="VHA Empresa Constructora S.A. Arcos Construcción" />
-                    </div>
-                    <div className='itemCarouselEmpresasClientesHome'>
-                        <img src={foto35} alt="Viluco Arcos Construcción" />
-                    </div>
+                {
+                    logos.map( logo => (
+                        <div className='itemCarouselEmpresasClientesHome'>
+                            <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false}/>
+                        </div>
+                    ))
+                }
                 </Carousel>
             </div>
         </div>

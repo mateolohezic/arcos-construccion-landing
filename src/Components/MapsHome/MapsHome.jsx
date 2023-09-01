@@ -7,7 +7,7 @@ function MapsHome() {
     <>
         <div className='tituloMapsHome'>
             <h2>Encuéntranos aquí</h2>
-            <img src={arrow} alt="Ubicación Arcos Construcción" />
+            <img src={arrow} alt="Ubicación Arcos Construcción" draggable={false}/>
         </div>
         <div className='contenedorMapsHome'>
             <iframe

@@ -11,8 +11,8 @@ function BarraDeNavegacion() {
     <>
         <nav className="navbar navbar-expand-lg sticky-top animate__animated animate__fadeInDown">
             <div className="container-fluid">
-                <a className="navbar-brand navbarBrandResponsive" href="/">
-                    <img src={logo} alt="Logo Barra de Navegación" />
+                <a className="navbar-brand navbarBrandResponsive" href="/" draggable={false}>
+                    <img src={logo} alt="Logo Barra de Navegación" draggable={false}/>
                 </a>
                 <button className="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal" aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Expandir" onClick={() => setOpen(!open)}>
                     <label className="burger" htmlFor="burgerButton">
@@ -25,44 +25,44 @@ function BarraDeNavegacion() {
                 <div className="collapse navbar-collapse" id="navbarPrincipal">
                     <ul className="navbar-nav navbarSection1">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+                            <a className="nav-link" aria-current="page" href="#Inicio" draggable={false}>Inicio</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#Servicios">Servicios</a>
+                            <a className="nav-link" aria-current="page" href="#Servicios" draggable={false}>Servicios</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#LaEmpresa">Nosotros</a>
+                            <a className="nav-link" aria-current="page" href="#LaEmpresa" draggable={false}>Nosotros</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                     </ul>
-                    <a className="navbar-brand navbarSection2" href="/">
-                        <img src={logo} alt="Logo Barra de Navegación" />
+                    <a className="navbar-brand navbarSection2" href="/" draggable={false}>
+                        <img src={logo} alt="Logo Barra de Navegación" draggable={false}/>
                     </a>
                     <ul className="navbar-nav navbarSection3">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#Inicio">Contacto</a>
+                            <a className="nav-link" aria-current="page" href="#Inicio" draggable={false}>Contacto</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                     </ul>
                 </div>
             </div>
             <header className='headerRedesSociales sticky-top animate__animated animate__fadeInDown'>
-                <a href='https://api.whatsapp.com/send/?phone=543815116660&text&type=phone_number&app_absent=0' target='_blank' className="headerLink">                
-                    <img src={whatsappIcon} alt="Whatsapp Arcos Construccion" />
+                <a href='https://api.whatsapp.com/send/?phone=543815116660&text&type=phone_number&app_absent=0' target='_blank' className="headerLink" draggable={false}>                
+                    <img src={whatsappIcon} alt="Whatsapp Arcos Construccion" draggable={false}/>
                     <span>+54 9 3815116660</span>
                 </a>
-                <a href='mailto: arcostuc@gmail.com' target='_blank' className="headerLink">
-                    <img src={emailIcon} alt="Email Arcos Construccion" />
+                <a href='mailto: arcostuc@gmail.com' target='_blank' className="headerLink" draggable={false}>
+                    <img src={emailIcon} alt="Email Arcos Construccion" draggable={false}/>
                     <span>arcostuc@gmail.com</span>
                 </a>
-                <a href='https://www.linkedin.com/company/arcos-construccion/' target='_blank' className="headerLink">
-                    <img src={linkedinIcon} alt="LinkedIn Arcos Construccion" />
+                <a href='https://www.linkedin.com/company/arcos-construccion/' target='_blank' className="headerLink" draggable={false}>
+                    <img src={linkedinIcon} alt="LinkedIn Arcos Construccion" draggable={false}/>
                     <span>Arcos Construcción</span>
                 </a>
-                <a href='https://www.instagram.com/arcostuc/' target='_blank' className="headerLink">
-                    <img src={instagramIcon} alt="Instagram Arcos Construccion" />
+                <a href='https://www.instagram.com/arcostuc/' target='_blank' className="headerLink" draggable={false}>
+                    <img src={instagramIcon} alt="Instagram Arcos Construccion" draggable={false}/>
                     <span>@arcostuc</span>
                 </a>
             </header>
