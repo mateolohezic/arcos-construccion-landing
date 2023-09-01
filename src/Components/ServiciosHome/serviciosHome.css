@@ -71,7 +71,6 @@
     font-size: 1.2rem;
     line-height: 1.2rem;
     font-weight: 400;
-    height: 40px;
 }
 
 .cardServiciosHome img{
@@ -142,5 +141,155 @@
 
 .confianzaServiciosHome img{
     margin-top: 2rem;
-    width: 10%;
+    width: 130px;
+}
+  
+@media (max-width: 576px) {
+  
+    .contenedorServiciosHome{
+        padding: 3rem 0rem 3rem 0rem;
+    }
+
+    .contenidoServiciosHome{
+        width: 100%;
+    }
+
+    .contenidoServiciosHome h2{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .contenidoServiciosHome > h5{
+        width: 100%;
+        padding-inline: 1rem;
+    }
+
+    .cardServiciosHome{
+        width: calc(100% - 4rem);
+        padding: 2rem 2rem;
+        border-radius: 0;
+    }
+    
+    .cardServiciosHome img{
+        width: calc(100% + 4rem);    
+        position: relative;
+        left: -2rem;
+        border-radius: 0;
+        margin-top: 2rem;
+    }
+
+    .cardServiciosHome p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .leerMasCardServiciosHome{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .confianzaServiciosHome h3{
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+        padding-inline: 1rem;
+    }
+
+    .confianzaServiciosHome img{
+        width: 100px;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+  
+    .contenedorServiciosHome{
+        padding: 3rem 0rem 3rem 0rem;
+    }
+
+    .contenidoServiciosHome{
+        width: 100%;
+    }
+
+    .contenidoServiciosHome h2{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .contenidoServiciosHome > h5{
+        width: 100%;
+        padding-inline: 1rem;
+    }
+
+    .cardServiciosHome{
+        width: calc(80% - 4rem);
+        padding: 2rem 2rem;
+        border-radius: 0;
+    }
+    
+    .cardServiciosHome img{
+        width: calc(100% + 4rem);    
+        position: relative;
+        left: -2rem;
+        border-radius: 0;
+        margin-top: 2rem;
+    }
+
+    .cardServiciosHome p{
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .leerMasCardServiciosHome{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .confianzaServiciosHome h3{
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+        padding-inline: 1rem;
+    }
+
+    .confianzaServiciosHome img{
+        width: 100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+    .contenedorServiciosHome{
+        padding: 3rem 0rem 3rem 0rem;
+    }
+
+    .contenidoServiciosHome{
+        width: 100%;
+    }
+
+    .contenidoServiciosHome h2{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .contenidoServiciosHome > h5{
+        width: 100%;
+        padding-inline: 1rem;
+    }
+}
+  
+@media (min-width: 1200px) and (max-width: 1920px) {
+  
+    .cardServiciosHome h5{
+        height: 40px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .cardServiciosHome h5{
+        height: 40px;
+    }
 }

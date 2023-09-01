@@ -65,3 +65,77 @@
 .logoInspiradosHome img{
     width: 50%;
 }
+  
+@media (max-width: 576px) {
+  
+    .cardInspiradosHome{
+        width: 90%;
+        padding: 3rem 1rem;
+        flex-direction: column-reverse;
+    }
+    
+    .textoInspiradosHome{
+        width: 100%;
+    }
+
+    .textoInspiradosHome h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .textoInspiradosHome h5{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .logoInspiradosHome{
+        width: 100%;
+    }
+
+    .logoInspiradosHome img{
+        width: 100px;
+        margin-bottom: 1.5rem;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+  
+    .cardInspiradosHome{
+        width: 90%;
+        padding: 3rem 1rem;
+        flex-direction: column-reverse;
+    }
+    
+    .textoInspiradosHome{
+        width: 100%;
+    }
+
+    .textoInspiradosHome h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .textoInspiradosHome h5{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .logoInspiradosHome{
+        width: 100%;
+    }
+
+    .logoInspiradosHome img{
+        width: 100px;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+  
+@media (min-width: 1200px) and (max-width: 1920px) {
+  
+}
+
+@media (min-width: 1920px) {
+
+}

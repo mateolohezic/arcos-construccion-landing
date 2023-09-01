@@ -7,6 +7,9 @@ import CarouselFotosHome from '../../Components/CarouselFotosHome/CarouselFotosH
 import InspiradosHome from '../../Components/InspiradosHome/InspiradosHome';
 import EmpresasClientesHome from '../../Components/EmpresasClientesHome/EmpresasClientesHome';
 import ServiciosHome from '../../Components/ServiciosHome/ServiciosHome';
+import BarraImagenHome from '../../Components/BarraImagenHome/BarraImagenHome';
+import ContactoHome from '../../Components/ContactoHome/ContactoHome';
+import MapsHome from '../../Components/MapsHome/MapsHome';
 
 function Home() {
   return (
@@ -17,6 +20,9 @@ function Home() {
       <InspiradosHome />
       <EmpresasClientesHome />
       <ServiciosHome />
+      <BarraImagenHome />
+      <ContactoHome />
+      <MapsHome />
     </>
   )
 }

@@ -54,7 +54,7 @@ function EmpresasClientesHome() {
         },
         mobile: {
           breakpoint: { max: 576, min: 0 },
-          items: 4,
+          items: 2,
         }
     };
 

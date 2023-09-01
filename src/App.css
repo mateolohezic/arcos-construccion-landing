@@ -11,6 +11,7 @@
     --azul: rgb(36, 34, 89, 1);
     --azul-oscuro: rgb(7, 6, 38, 1);
     --blanco: rgb(255, 255, 255, 1);
+    --rojo: rgb(253, 76, 60, 1);
 }
 
 * {
@@ -78,15 +79,48 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
     -webkit-text-fill-color: black !important;
 }
-  
-.form-control:focus {
+
+input.form-control{
+    border-radius: 0;
     box-shadow: none;
     border-color: none;
     border: none;
-    background-color: transparent;
+    border-bottom: 1px solid rgb( 21, 21, 21, 0.2);
+    outline: none;
+    transition: all .3s ease;
 }
   
-.form-control.is-invalid:focus {
+input.form-control:focus {
+    box-shadow: none;
+    border-color: none;
+    border: none;
+    border-bottom: 1px solid var(--azul);
+    outline: none;
+}
+
+input.form-control.is-invalid:focus {
+    box-shadow: none;
+    border-color: none;
+}
+
+textarea.form-control{
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    border-color: none;
+    border: 1px solid rgb( 21, 21, 21, 0.2);
+    outline: none;
+    transition: all .3s ease;
+}
+  
+textarea.form-control:focus {
+    box-shadow: none;
+    border-color: none;
+    border: 1px solid var(--azul);
+    outline: none;
+}
+
+textarea.form-control.is-invalid:focus {
     box-shadow: none;
     border-color: none;
 }

@@ -10,8 +10,7 @@
     color: var(--azul);
     font-size: 3rem;
     line-height: 3rem;
-    letter-spacing: 2px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .contenedorEmpresasClientesHome p{
@@ -28,6 +27,7 @@
 .contenedorCarouselEmpresasClientesHome{
     margin-top: 2rem;
     position: relative;
+    width: 100%;
 }
 
 .itemCarouselEmpresasClientesHome{
@@ -50,4 +50,72 @@
 
 .react-multi-carousel-dot.react-multi-carousel-dot--active button{
     background: var(--azul);
+}
+  
+@media (max-width: 576px) {
+
+    .contenedorEmpresasClientesHome{
+        padding-block: 3rem 3rem;
+    }
+  
+    .contenedorEmpresasClientesHome h2{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .contenedorEmpresasClientesHome p{
+        width: 90%;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .dotsCarouselAnuncios{
+        display: none;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+    
+    .contenedorEmpresasClientesHome h2{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-inline: 1rem;
+    }
+
+    .contenedorEmpresasClientesHome p{
+        width: 90%;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .dotsCarouselAnuncios button{
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+    .contenedorEmpresasClientesHome h2{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .contenedorEmpresasClientesHome p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+  
+@media (min-width: 1200px) and (max-width: 1920px) {
+  
+}
+
+@media (min-width: 1920px) {
+
 }

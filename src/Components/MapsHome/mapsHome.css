@@ -1,0 +1,57 @@
+.tituloMapsHome{
+    width: 100%;
+    text-align: center;
+}
+
+.tituloMapsHome h2{
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 800;
+}
+
+.tituloMapsHome img{
+    margin-block: 0.2rem 0.5rem;
+    width: 30px;
+}
+
+.contenedorMapsHome{
+    width: 100%;
+    position: relative;
+    padding-bottom: 25%;
+}
+
+.contenedorMapsHome iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+@media (max-width: 576px) {
+
+    .contenedorMapsHome{
+        padding-bottom: 100%;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+  
+    .contenedorMapsHome{
+        padding-bottom: 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+  
+@media (min-width: 1200px) and (max-width: 1920px) {
+  
+}
+
+@media (min-width: 1920px) {
+
+}

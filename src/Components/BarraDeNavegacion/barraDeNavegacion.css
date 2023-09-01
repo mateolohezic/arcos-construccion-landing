@@ -138,6 +138,10 @@
     font-size: 0.8rem;
 }
 
+.headerLink span{
+    color: var(--blanco);
+}
+
 .headerLink img{
     width: 15px;
     margin-right: 0.4rem;
@@ -154,23 +158,120 @@
     .navbarSection2{
         display: none;
     }
+
+    .headerLink span{
+        display: none;
+    }
+
+    .headerRedesSociales{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .headerLink img{
+        width: 25px;
+        margin-right: 0rem;
+        position: static;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 992px){
-
+    
     .navbar-brand{
-        width: 15%;
+        width: 40px;
+    }
+
+    .navbarSection2{
+        display: none;
+    }
+
+    .headerLink span{
+        display: none;
+    }
+
+    .headerRedesSociales{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .headerLink img{
+        width: 25px;
+        margin-right: 0rem;
+        position: static;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
 
-    .navbar-brand{
-        width: 10%;
+    .navbar{
+        padding-inline: 5rem;
+    }
+
+    .nav-link{
+        padding-bottom: 0.15rem;
+    }
+
+    .navbarBrandResponsive{
+        display: none;
+    }
+    
+    .navbarSection1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: calc(50% - 25px);
+    }
+
+    .navbarSection2{
+        width: 50px;
+        filter: drop-shadow(4px 4px 3px rgb(58,58,58, 0.3));
+    }
+    
+    .navbarSection3{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: calc(50% - 25px);
     }
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) and (max-width: 1920px){
+
+    .navbar{
+        padding-inline: 5rem;
+    }
+
+    .nav-link{
+        padding-bottom: 0.15rem;
+    }
+
+    .navbarBrandResponsive{
+        display: none;
+    }
+    
+    .navbarSection1{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: calc(50% - 25px);
+    }
+
+    .navbarSection2{
+        width: 50px;
+        filter: drop-shadow(4px 4px 3px rgb(58,58,58, 0.3));
+    }
+    
+    .navbarSection3{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: calc(50% - 25px);
+    }
+}
+
+@media (min-width: 1920px) {
 
     .navbar{
         padding-inline: 5rem;

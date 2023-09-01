@@ -51,19 +51,19 @@ function BarraDeNavegacion() {
             <header className='headerRedesSociales sticky-top animate__animated animate__fadeInDown'>
                 <a href='https://api.whatsapp.com/send/?phone=543815116660&text&type=phone_number&app_absent=0' target='_blank' className="headerLink">                
                     <img src={whatsappIcon} alt="Whatsapp Arcos Construccion" />
-                    +54 9 3815116660
+                    <span>+54 9 3815116660</span>
                 </a>
                 <a href='mailto: arcostuc@gmail.com' target='_blank' className="headerLink">
                     <img src={emailIcon} alt="Email Arcos Construccion" />
-                    arcostuc@gmail.com
+                    <span>arcostuc@gmail.com</span>
                 </a>
                 <a href='https://www.linkedin.com/company/arcos-construccion/' target='_blank' className="headerLink">
                     <img src={linkedinIcon} alt="LinkedIn Arcos Construccion" />
-                    Arcos Construcción
+                    <span>Arcos Construcción</span>
                 </a>
                 <a href='https://www.instagram.com/arcostuc/' target='_blank' className="headerLink">
                     <img src={instagramIcon} alt="Instagram Arcos Construccion" />
-                    @arcostuc
+                    <span>@arcostuc</span>
                 </a>
             </header>
         </nav>
