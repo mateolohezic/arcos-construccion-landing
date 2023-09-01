@@ -22,12 +22,16 @@ function Footer() {
             <div className="columna3Footer">
                 <h4>CONTACTO</h4>
                 <h5>
-                    <img src={email} alt="" />
-                    arcostuc@gmail.com
+                    <a href="mailto: arcostuc@gmail.com" target='_blank'>
+                        <img src={email} alt="Correo electrónico Arcos Construcción" />
+                        arcostuc@gmail.com
+                    </a>
                 </h5>
                 <h5>
-                    <img src={phone} alt="" />
-                    +54 9 3815116660
+                    <a href="https://api.whatsapp.com/send/?phone=543815116660&text&type=phone_number&app_absent=0" target='_blank'>
+                        <img src={phone} alt="Teléfono Arcos Construcción" />
+                        +54 9 3815116660
+                    </a>
                 </h5>
                 <h5>
                     <img src={gps} alt="" />
