@@ -1,7 +1,7 @@
 import React from 'react'
 import './empresasClientesHome.css'
 import Carousel from 'react-multi-carousel';
-import foto1 from '../../assets/empresasClientes/azucarbermejoBolivia.webp'
+import foto1 from '../../assets/empresasClientes/azucarBermejoBolivia.webp'
 import foto2 from '../../assets/empresasClientes/calsa.webp'
 import foto3 from '../../assets/empresasClientes/cencosud.webp'
 import foto4 from '../../assets/empresasClientes/citrusvil.webp'
