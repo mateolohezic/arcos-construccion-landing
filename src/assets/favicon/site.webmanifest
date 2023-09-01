@@ -48,8 +48,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#242259",
-    "background_color": "#242259",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
     "start_url": "https://arcosconstruccion.com/",
     "display": "standalone"
 }
