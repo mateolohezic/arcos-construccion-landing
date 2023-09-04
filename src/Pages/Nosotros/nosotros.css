@@ -335,11 +335,111 @@
 }
   
 @media (min-width: 576px) and (max-width: 992px) {
-  
+    
+    .portadaNosotros h1, .portadaIphoneNosotros h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .introduccionNosotros{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .introduccionNosotros h4{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .introduccionNosotros p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .textoHistoriaNosotros div{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .textoHistoriaNosotros h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .textoHistoriaNosotros p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .misionVisionNosotros{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .cardMisionVisionNosotros{
+        gap: 2rem;
+    }    
+
+    .textoCardMisionVisionNosotros{
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .textoCardMisionVisionNosotros h2{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .textoCardMisionVisionNosotros p{
+        width: 80%;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .imagenCardMisionVisionNosotros{
+        width: 100%;
+        padding-bottom: 100%;
+        filter: none;
+    }
+
+    .cardMisionVisionNosotros:nth-child(2){
+        margin-top: 3rem;
+        flex-direction: column-reverse;
+    }
+
+    .valoresNosotros h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .valoresNosotros{
+        width: 100%;
+        padding: 0rem 1rem 3rem 1rem;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
 
+    .introduccionNosotros{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .textoHistoriaNosotros div{
+        width: 100%;
+    }
+
+    .misionVisionNosotros{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .valoresNosotros{
+        width: 100%;
+    }
 }
   
 @media (min-width: 1200px) and (max-width: 1920px) {
