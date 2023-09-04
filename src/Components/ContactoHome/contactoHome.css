@@ -1,6 +1,6 @@
 .contenedorContactoHome{
     margin: auto;
-    width: 1184px;
+    width: 1200px;
     padding: 3rem 0rem;
 }
 
@@ -11,7 +11,7 @@
     color: var(--azul);
     font-size: 3rem;
     line-height: 3rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .contenedorContactoHome h5{

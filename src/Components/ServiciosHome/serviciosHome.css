@@ -5,7 +5,7 @@
 }
 
 .contenidoServiciosHome{
-    width: 1184px;
+    width: 1200px;
     margin: auto;
     padding: 0;
 }
@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 3rem;
     line-height: 3rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .contenidoServiciosHome > h5{
@@ -60,7 +60,7 @@
     text-align: center;
     font-size: 2rem;
     line-height: 2rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .cardServiciosHome h5{
@@ -73,11 +73,38 @@
     font-weight: 400;
 }
 
-.cardServiciosHome img{
+.imagenCardServiciosHome{
     width: 80%;
+    padding-bottom: calc( 80% * 0.5625 );
     margin: auto;
     margin-top: 1rem;
+    position: relative;
+}
+
+.cardServiciosHome img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
     border-radius: 0.5rem;
+}
+
+.cardServiciosHome:nth-child(1) img{
+    object-position: 0% 80%;
+}
+
+.cardServiciosHome:nth-child(2) img{
+    object-position: 50% 50%;
+}
+
+.cardServiciosHome:nth-child(3) img{
+    object-position: 50% 0%;
+}
+
+.cardServiciosHome:nth-child(4) img{
+    object-position: 50% 0%;
 }
 
 .cardServiciosHome p{

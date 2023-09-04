@@ -25,15 +25,15 @@ function BarraDeNavegacion() {
                 <div className="collapse navbar-collapse" id="navbarPrincipal">
                     <ul className="navbar-nav navbarSection1">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#Inicio" draggable={false}>Inicio</a>
+                            <a className="nav-link" aria-current="page" href="/" draggable={false}>Inicio</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#Servicios" draggable={false}>Servicios</a>
+                            <a className="nav-link" href="/Servicios" draggable={false}>Servicios</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#LaEmpresa" draggable={false}>Nosotros</a>
+                            <a className="nav-link" href="/Nosotros" draggable={false}>Nosotros</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                     </ul>
@@ -42,7 +42,7 @@ function BarraDeNavegacion() {
                     </a>
                     <ul className="navbar-nav navbarSection3">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#Inicio" draggable={false}>Contacto</a>
+                            <a className="nav-link" href="/Contacto" draggable={false}>Contacto</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                     </ul>

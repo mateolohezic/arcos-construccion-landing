@@ -34,7 +34,7 @@ footer{
     color: var(--blanco);
     letter-spacing: 1px;
     font-family: var(--font-avant);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .columna2Footer h5{
@@ -61,7 +61,7 @@ footer{
     color: var(--blanco);
     letter-spacing: 1px;
     font-family: var(--font-avant);
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 1rem;
 }
 

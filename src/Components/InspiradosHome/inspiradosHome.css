@@ -36,7 +36,7 @@
 .textoInspiradosHome b{
     color: var(--azul);
     font-family: var(--font-avant);
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .textoInspiradosHome p{

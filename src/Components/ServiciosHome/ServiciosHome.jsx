@@ -1,6 +1,6 @@
 import React from 'react'
 import './serviciosHome.css'
-import servicio1 from '../../assets/servicio1.webp'
+import servicio1 from '../../assets/servicio1.jpg'
 import servicio2 from '../../assets/servicio2.webp'
 import servicio3 from '../../assets/servicio3.webp'
 import servicio4 from '../../assets/servicio4.webp'
@@ -17,7 +17,9 @@ function ServiciosHome() {
                     <div className='cardServiciosHome'>
                         <h4>OBRAS CIVILES</h4>
                         <h5>Materializamos tus ideas</h5>
-                        <img src={servicio1} alt="Obras Civiles Arcos Construcción" draggable={false}/>
+                        <div className='imagenCardServiciosHome'>
+                            <img src={servicio1} alt="Obras Civiles Arcos Construcción" draggable={false}/>
+                        </div>
                         <p>Garantizamos la excelencia en cada paso. Nuestro enfoque se adapta a tus necesidades únicas y te proporcionamos atención personalizada. Si buscas una planificación profesional de la construcción, estamos aquí para asesorarte.</p>
                         <div className='leerMasCardServiciosHome'>
                             <a href="/" draggable={false}>
@@ -34,7 +36,9 @@ function ServiciosHome() {
                     <div className='cardServiciosHome'>
                         <h4>SERVICIOS</h4>
                         <h5>Creciendo juntos, construyendo para la comunidad</h5>
-                        <img src={servicio2} alt="Servicios Arcos Construcción" draggable={false}/>
+                        <div className='imagenCardServiciosHome'>
+                            <img src={servicio2} alt="Servicios Arcos Construcción" draggable={false}/>
+                        </div>
                         <p>La implementación de servicios es nuestra especialidad. Desde redes de distribución de luz, agua potable y electricidad hasta gasoductos de baja, media y alta presión, hemos demostrado nuestra competencia en diversos escenarios: barrios privados, áreas públicas e industrias. Tu seguridad y eficiencia son nuestra prioridad.</p>
                         <div className='leerMasCardServiciosHome'>
                             <a href="/" draggable={false}>
@@ -51,7 +55,9 @@ function ServiciosHome() {
                     <div className='cardServiciosHome'>
                         <h4>DESARROLLOS</h4>
                         <h5>Creamos tu espacio, a tu medida</h5>
-                        <img src={servicio3} alt="Desarrollos Arcos Construcción" draggable={false}/>
+                        <div className='imagenCardServiciosHome'>
+                            <img src={servicio3} alt="Desarrollos Arcos Construcción" draggable={false}/>
+                        </div>
                         <p>Desde barrios privados hasta parques industriales y proyectos de infraestructura. Creamos soluciones personalizadas para construir confianza. La experiencia en el rubro nos permite materializar ideas desafiantes sin comprometer la calidad. Nuestros clientes son el núcleo de lo que hacemos, y trabajamos incansablemente para lograr su satisfacción con un servicio a su medida.</p>
                         <div className='leerMasCardServiciosHome'>
                             <a href="/" draggable={false}>
@@ -68,7 +74,9 @@ function ServiciosHome() {
                     <div className='cardServiciosHome'>
                         <h4>ALQUILER DE EQUIPOS</h4>
                         <h5>Nuestras manos a tu servicio</h5>
-                        <img src={servicio4} alt="Alquiler de Equipos Arcos Construcción" draggable={false}/>
+                        <div className='imagenCardServiciosHome'>
+                            <img src={servicio4} alt="Alquiler de Equipos Arcos Construcción" draggable={false}/>
+                        </div>
                         <p>La excelencia abarca hasta los más pequeños detalles, incluyendo la maquinaria que utilizamos. Nuestra flota de equipos, que incluye Retroexcavadoras, Minicargadoras, Aplanadoras, Motocompresores, Motosoldadores, Camiones, Acoplados y equipos menores, asegura que cumplamos nuestras obligaciones con garantía. Ademas, te brindamos la oportunidad de potenciar tus proyectos con nuestra amplia gama de equipos. Ofrecemos alquiler a terceros, respaldando con nuestra experiencia y recursos. </p>
                         <div className='leerMasCardServiciosHome'>
                             <a href="/" draggable={false}>

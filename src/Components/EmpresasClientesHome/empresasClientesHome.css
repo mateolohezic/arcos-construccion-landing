@@ -3,14 +3,14 @@
 }
 
 .contenedorEmpresasClientesHome h2{
-    width: 1184px;
+    width: 1200px;
     margin: auto;
     text-align: center;
     font-family: var(--font-avant);
     color: var(--azul);
     font-size: 3rem;
     line-height: 3rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .contenedorEmpresasClientesHome p{

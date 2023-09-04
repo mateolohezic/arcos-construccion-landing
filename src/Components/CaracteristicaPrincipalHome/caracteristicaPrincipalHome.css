@@ -1,5 +1,5 @@
 .contenedorCaracteristicaHome{
-    width: 1184px;
+    width: 1200px;
     padding: 6rem 0rem 0rem 0rem;
     margin: auto;
     text-align: center;
@@ -10,7 +10,7 @@
     color: var(--azul);
     font-size: 3rem;
     line-height: 3rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .contenedorCaracteristicaHome h5{

@@ -1,0 +1,351 @@
+.contenedorPrincipalNosotros{
+    margin-top: 7rem;
+}
+
+.portadaNosotros{
+    width: 100%;
+    padding-top: 450px;
+    position: relative;
+    background-image: url("../../assets/nosotrosPortada.webp");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.4);
+    background-position: 50% 60%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.portadaIphoneNosotros{
+    width: 100%;
+    padding-top: 450px;
+    position: relative;
+    background-image: url("../../assets/nosotrosPortada.webp");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.4);
+    background-position: 50% 60%;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.portadaNosotros h1, .portadaIphoneNosotros h1{
+    width: 100%;
+    text-align: start;
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 500;
+}
+
+.lineaDivisoraNosotros{
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    height: 2px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.introduccionNosotros{
+    width: 1200px;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+.introduccionNosotros h4{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: var(--azul);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 800;
+}
+
+.introduccionNosotros p{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    color: var(--azul-oscuro);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.32rem;
+}
+
+.introduccionNosotros p:first-child{
+    margin-top: 3rem;
+}
+
+.imagenHistoriaNosotros{
+    width: 100%;
+    padding-bottom: 450px;
+    background-image: url("../../assets/historiaNosotros.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(31, 31, 31, 0);
+    background-position: 50% 20%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagenHistoriaIphoneNosotros{
+    width: 100%;
+    padding-bottom: 450px;
+    background-image: url("../../assets/historiaNosotros.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(31, 31, 31, 0);
+    background-position: 50% 45%;
+    background-size: cover;
+}
+
+.textoHistoriaNosotros{
+    width: 100%;
+    background-color: var(--azul-oscuro);
+    padding: 3rem 0rem;
+}
+
+.textoHistoriaNosotros div{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.textoHistoriaNosotros h2{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.3);
+    text-align: center;
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.textoHistoriaNosotros p{
+    width: 90%;
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.32rem;
+}
+
+.misionVisionNosotros{
+    width: 1200px;
+    margin: auto;
+    padding-block: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardMisionVisionNosotros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.textoCardMisionVisionNosotros{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.textoCardMisionVisionNosotros h2{
+    width: 80%;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgb(31, 31, 31, 0.2);
+    text-align: center;
+    font-family: var(--font-avant);
+    color: var(--azul-oscuro);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.textoCardMisionVisionNosotros p{
+    width: 70%;
+    color: var(--azul-oscuro);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.32rem;
+}
+
+.imagenCardMisionVisionNosotros{
+    width: 50%;
+    padding-bottom: 50%;
+    background-image: url("../../assets/historiaNosotros.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-blend-mode: multiply;
+    filter: blur(1.5px);
+}
+
+.imagenCardMisionVisionNosotros:nth-child(2){
+    background-image: url("../../assets/misionNosotros.jpg");
+    background-color: rgb(31, 31, 31, 0.4);
+}
+
+.imagenCardMisionVisionNosotros:nth-child(1){
+    background-image: url("../../assets/visionNosotros.jpeg");
+    background-color: rgb(31, 31, 31, 0.15);
+}
+
+.valoresNosotros{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.valoresNosotros h2{
+    width: 100%;
+    font-family: var(--font-avant);
+    color: var(--azul-oscuro);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.valoresNosotros div{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.valoresNosotros div button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31, 0.3);
+    color: var(--blanco);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+  
+@media (max-width: 576px) {
+  
+    .portadaNosotros h1, .portadaIphoneNosotros h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .introduccionNosotros{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .introduccionNosotros h4{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .introduccionNosotros p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .textoHistoriaNosotros div{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .textoHistoriaNosotros h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .textoHistoriaNosotros p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .misionVisionNosotros{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .cardMisionVisionNosotros{
+        gap: 2rem;
+    }    
+
+    .textoCardMisionVisionNosotros{
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .textoCardMisionVisionNosotros h2{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .textoCardMisionVisionNosotros p{
+        width: 80%;
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .imagenCardMisionVisionNosotros{
+        width: 100%;
+        padding-bottom: 100%;
+        filter: none;
+    }
+
+    .cardMisionVisionNosotros:nth-child(2){
+        margin-top: 3rem;
+        flex-direction: column-reverse;
+    }
+
+    .valoresNosotros h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .valoresNosotros{
+        width: 100%;
+        padding: 0rem 1rem 3rem 1rem;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+  
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+  
+@media (min-width: 1200px) and (max-width: 1920px) {
+  
+}
+
+@media (min-width: 1920px) {
+
+}
