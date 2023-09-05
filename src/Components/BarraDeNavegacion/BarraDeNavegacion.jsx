@@ -29,11 +29,15 @@ function BarraDeNavegacion() {
                             <div className='subrayadoNavLink'></div>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" href="/Nosotros" draggable={false}>Nosotros</a>
+                            <div className='subrayadoNavLink'></div>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="/Servicios" draggable={false}>Servicios</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/Nosotros" draggable={false}>Nosotros</a>
+                            <a className="nav-link" href="/Clientes" draggable={false}>Clientes</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                     </ul>
