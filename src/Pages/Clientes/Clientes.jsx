@@ -1,6 +1,5 @@
 import React from 'react'
-import './empresasClientesHome.css'
-import Carousel from 'react-multi-carousel';
+import './clientes.css'
 import foto1 from '../../assets/empresasClientes/azucarBermejoBolivia.webp'
 import foto2 from '../../assets/empresasClientes/calsa.webp'
 import foto3 from '../../assets/empresasClientes/cencosud.webp'
@@ -37,26 +36,7 @@ import foto33 from '../../assets/empresasClientes/unt.webp'
 import foto34 from '../../assets/empresasClientes/VHA.webp'
 import foto35 from '../../assets/empresasClientes/viluco.webp'
 
-function EmpresasClientesHome() {
-
-    const responsiveCarousel = {
-        superLargeDesktop: {
-          breakpoint: { max: 10000, min: 1200 },
-          items: 10,
-        },
-        desktop: {
-          breakpoint: { max: 1200, min: 992 },
-          items: 8,
-        },
-        tablet: {
-          breakpoint: { max: 992, min: 576 },
-          items: 6,
-        },
-        mobile: {
-          breakpoint: { max: 576, min: 0 },
-          items: 2,
-        }
-    };
+function Clientes() {
 
     const logos = [
         { src: foto1, alt: 'Azúcar Bermejo Bolivia' },
@@ -94,27 +74,28 @@ function EmpresasClientesHome() {
         { src: foto33, alt: 'Universidad Nacional Tucumán' },
         { src: foto34, alt: 'VHA Empresa Constructora S.A.' },
         { src: foto35, alt: 'Viluco' },
-      ];
+    ];
 
     return (
     <>
-        <div className='contenedorEmpresasClientesHome'>
-            <h2>EMPRESAS QUE FORMAN EL MUNDO DE ARCOS</h2>
-            <p>Estas empresas ya confiaron en nosotros, consiguiendo un servicio de excelencia y calidad en cada paso.</p>
-            <div className='contenedorCarouselEmpresasClientesHome'>
-                <Carousel infinite autoPlay pauseOnHover centerMode arrows={false} containerClass='carouselEmpresasClientesHome' showDots={true} renderDotsOutside={true} dotListClass="dotsCarouselAnuncios" responsive={responsiveCarousel}>
-                {
-                    logos.map( logo => (
-                        <div className='itemCarouselEmpresasClientesHome' key={logo.alt}>
-                            <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false}/>
-                        </div>
-                    ))
-                }
-                </Carousel>
+        <div className="contenedorPrincipalClientes">
+            <div className='contenidoClientes'>
+                <h1>NUESTROS CLIENTES</h1>
+                <h2>Éxitos Compartidos</h2>
+                <p>Desde 1970, hemos estado ofreciendo una amplia gama de servicios profesionales y aprovechando nuestra rica experiencia para guiar a cada cliente a lo largo de todo el proceso de sus proyectos. Nos esforzamos constantemente por comprender las necesidades de nuestros clientes y entregar resultados excepcionales. A lo largo de los años, hemos tenido el privilegio de colaborar con destacadas empresas, algunas de las cuales incluyen:</p>
+                <div className='contenedorLogosClientes'>
+                    {
+                        logos.map( logo => (
+                            <div className='itemLogoClientes' key={logo.alt}>
+                                <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false}/>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     </>
     )
 }
 
-export default EmpresasClientesHome
+export default Clientes

@@ -5,6 +5,7 @@ import './App.css'
 import BarraDeNavegacion from './Components/BarraDeNavegacion/BarraDeNavegacion';
 import Footer from './Components/Footer/Footer';
 import Nosotros from './Pages/Nosotros/Nosotros';
+import Clientes from './Pages/Clientes/Clientes';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/Nosotros" element={<Nosotros/>} />
+      <Route path="/Clientes" element={<Clientes/>} />
     </Routes>
     <Footer />
     </>

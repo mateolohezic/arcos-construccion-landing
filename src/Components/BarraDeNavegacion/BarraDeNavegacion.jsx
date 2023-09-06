@@ -9,7 +9,7 @@ import instagramIcon from '../../assets/instagramIcon.png'
 function BarraDeNavegacion() {
   return (
     <>
-        <nav className="navbar navbar-expand-lg sticky-top animate__animated animate__fadeInDown">
+        <nav className="navbar navbar-expand-lg animate__animated animate__fadeInDown">
             <div className="container-fluid">
                 <a className="navbar-brand navbarBrandResponsive" href="/" draggable={false}>
                     <img src={logo} alt="Logo Barra de Navegación" draggable={false}/>
