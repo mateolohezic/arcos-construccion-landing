@@ -1,0 +1,405 @@
+.contenedorPrincipalServicios{
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.portadaServicios{
+    width: 100%;
+    padding-top: 450px;
+    position: relative;
+    background-image: url("../../assets/portadaServicios2.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.4);
+    background-position: 50% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.portadaIphoneServicios{
+    width: 100%;
+    padding-top: 450px;
+    position: relative;
+    background-image: url("../../assets/portadaServicios2.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.4);
+    background-position: 50% 60%;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.portadaServicios h1, .portadaIphoneServicios h1{
+    width: 100%;
+    text-align: start;
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 500;
+    text-shadow: 5px 5px 6px rgba( 31, 31, 31, 0.3);
+}
+
+.introduccionServicios{
+    width: 1200px;
+    padding: 3rem 0rem 3rem  0rem;
+    margin: auto;
+    text-align: center;
+}
+
+.introduccionServicios h2{
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.introduccionServicios h3{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgb(21, 21, 21, 0.2);
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.introduccionServicios p{
+    margin-top: 1.5rem;
+    color: var(--azul);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.tituloFotosServicios{
+    width: 100%;
+    margin: auto;
+    padding: 3rem 0rem;
+    background-color: var(--azul-oscuro);
+    box-shadow: rgba( 31, 31, 31, 0.5) 0px 5px 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.tituloFotosServicios h2{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.tituloFotosServicios h3{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: var(--blanco);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.contenedorFotosServicios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 500px;
+}
+
+.contenedorFotosServicios a{
+    text-decoration: none;
+    position: relative;
+    width: 25%;
+    height: 500px;
+    flex-grow: 1;
+    transition: all .3s ease;
+    background-image: url("../../assets/portadaServicios2.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.2);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.contenedorFotosServicios a:hover{
+    width: 40%;
+    transition: all .3s ease;
+    background-color: rgb(31, 31, 31, 0.4);
+}
+
+.contenedorFotosServicios a::after{
+    width: 100%;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #FFFFFF;
+    font-family: var(--font-avant);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    transition: all .3s ease;
+    opacity: 0;
+    text-shadow: 5px 5px 6px rgba( 31, 31, 31, 0.5);
+}
+
+.contenedorFotosServicios a:hover::after{
+    opacity: 1;
+}
+
+.contenedorFotosServicios a:nth-child(1){
+    background-image: url("../../assets/obrasCivilesServicios.jpg");
+    background-position: 50% 60%;
+}
+
+.contenedorFotosServicios a:nth-child(1):after{
+    content: 'OBRAS CIVILES';
+}
+
+.contenedorFotosServicios a:nth-child(2){
+    background-image: url("../../assets/serviciosServicios.jpg");
+    background-position: 50% 30%;
+}
+
+.contenedorFotosServicios a:nth-child(2):after{
+    content: 'SERVICIOS';
+}
+
+.contenedorFotosServicios a:nth-child(3){
+    background-image: url("../../assets/servicio3.webp");
+    background-position: 50% 0%;
+}
+
+.contenedorFotosServicios a:nth-child(3):after{
+    content: 'DESARROLLOS';
+}
+
+.contenedorFotosServicios a:nth-child(4){
+    background-image: url("../../assets/portadaServicios.jpeg");
+    background-position: 100% 100%;
+}
+
+.contenedorFotosServicios a:nth-child(4):after{
+    content: 'ALQUILER';
+}
+  
+@media (max-width: 576px) {
+    
+    .portadaServicios h1, .portadaIphoneServicios h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .introduccionServicios{
+        width: 100%;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .introduccionServicios h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .introduccionServicios h3{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .introduccionServicios p{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .tituloFotosServicios{
+        padding: 3rem 1rem;
+    }
+
+    .tituloFotosServicios h2{
+        width: 100%;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .tituloFotosServicios h3{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .contenedorFotosServicios{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .contenedorFotosServicios a{
+        width: 100%;
+        height: 25%;
+        flex-grow: 1;
+    }
+
+    .contenedorFotosServicios a:hover{
+        width: 100%;
+        height: 80%;
+    }
+
+    .contenedorFotosServicios a::after{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        opacity: 1;
+    }
+
+    .contenedorFotosServicios a:nth-child(1){
+        background-image: url("../../assets/obrasCivilesServicios.jpg");
+        background-position: 50% 50%;
+    }
+    
+    .contenedorFotosServicios a:nth-child(2){
+        background-image: url("../../assets/serviciosServicios.jpg");
+        background-position: 50% 50%;
+    }
+    
+    .contenedorFotosServicios a:nth-child(3){
+        background-image: url("../../assets/servicio3.webp");
+        background-position: 50% 50%;
+    }
+    
+    .contenedorFotosServicios a:nth-child(4){
+        background-image: url("../../assets/portadaServicios.jpeg");
+        background-position: 50% 50%;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+      
+    .portadaServicios h1, .portadaIphoneServicios h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .introduccionServicios{
+        width: 100%;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .introduccionServicios h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .introduccionServicios h3{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .introduccionServicios p{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    .tituloFotosServicios{
+        padding: 3rem 1rem;
+    }
+
+    .tituloFotosServicios h2{
+        width: 100%;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .tituloFotosServicios h3{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .contenedorFotosServicios{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .contenedorFotosServicios a{
+        width: 100%;
+        height: 25%;
+        flex-grow: 1;
+    }
+
+    .contenedorFotosServicios a:hover{
+        width: 100%;
+        height: 80%;
+    }
+
+    .contenedorFotosServicios a::after{
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        opacity: 1;
+    }
+
+    .contenedorFotosServicios a:nth-child(1){
+        background-image: url("../../assets/obrasCivilesServicios.jpg");
+        background-position: 50% 50%;
+    }
+    
+    .contenedorFotosServicios a:nth-child(2){
+        background-image: url("../../assets/serviciosServicios.jpg");
+        background-position: 50% 50%;
+    }
+    
+    .contenedorFotosServicios a:nth-child(3){
+        background-image: url("../../assets/servicio3.webp");
+        background-position: 50% 50%;
+    }
+    
+    .contenedorFotosServicios a:nth-child(4){
+        background-image: url("../../assets/portadaServicios.jpeg");
+        background-position: 50% 50%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .introduccionServicios{
+        width: 100%;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .tituloFotosServicios{
+        padding: 3rem 1rem;
+    }
+
+    .tituloFotosServicios h2{
+        width: 100%;
+    }
+    
+    .tituloFotosServicios h3{
+        width: 100%;
+    }
+}
+  
+@media (min-width: 1200px) and (max-width: 1920px) {
+  
+}
+
+@media (min-width: 1920px) {
+
+}
