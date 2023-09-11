@@ -46,7 +46,7 @@ function BarraDeNavegacion() {
                     </a>
                     <ul className="navbar-nav navbarSection3">
                         <li className="nav-item">
-                            <a className="nav-link" href="/Contacto" draggable={false}>Contacto</a>
+                            <a className="nav-link" href="/#contactForm" draggable={false}>Contacto</a>
                             <div className='subrayadoNavLink'></div>
                         </li>
                     </ul>

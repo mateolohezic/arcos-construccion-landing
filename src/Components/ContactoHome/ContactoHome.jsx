@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import './contactoHome.css'
 import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
@@ -7,6 +7,14 @@ function ContactoHome() {
     
     const [loading, setLoading] = useState(false);
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const contactFormRef = useRef(null);
+
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash === '#contactForm') {
+          contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, []);
 
     const onSubmit = async (data) => {
         if (loading === false) {            
@@ -41,7 +49,8 @@ function ContactoHome() {
     
     return (
     <>
-        <div className='contenedorContactoHome'>
+        <div></div>
+        <div className='contenedorContactoHome' ref={contactFormRef} id='contactForm'>
             <h2>CONTACTO</h2>
             <h5>Conéctate con nosotros, ¡Tu proximo paso hacia la solución!</h5>
             <form onSubmit={handleSubmit(onSubmit)} className='formContactoHome'>
