@@ -104,6 +104,40 @@
     color: var(--rojo);
     padding-left: 0.5rem;
 }
+
+.contenedorEnviadoContacto{
+    padding: 6rem 0rem;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedorEnviadoContacto h4{
+    width: 100%;
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.contenedorEnviadoContacto h5{
+    width: 100%;
+    margin-top: 0.5rem;
+    color: var(--azul);
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.contenedorEnviadoContacto img {
+    margin-top: 3rem;
+    width: 250px;
+}
   
 @media (max-width: 576px) {
   
@@ -138,6 +172,25 @@
 
     .errorFormMessage{
         text-align: center;
+    }
+
+    .contenedorEnviadoContacto{
+        padding: 6rem 1rem;
+        width: 100%;
+    }
+
+    .contenedorEnviadoContacto h4{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    .contenedorEnviadoContacto h5{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .contenedorEnviadoContacto img {
+        width: 200px;
     }
 }
   
@@ -175,6 +228,21 @@
     .errorFormMessage{
         text-align: center;
     }
+
+    .contenedorEnviadoContacto{
+        padding: 6rem 1rem;
+        width: 100%;
+    }
+
+    .contenedorEnviadoContacto h4{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .contenedorEnviadoContacto h5{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -185,13 +253,28 @@
     }
 
     .contenedorContactoHome h2{
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
     }
 
     .contenedorContactoHome h5{
         font-size: 1rem;
         line-height: 1rem;
+    }
+
+    .contenedorEnviadoContacto{
+        padding: 6rem 1rem;
+        width: 100%;
+    }
+
+    .contenedorEnviadoContacto h4{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .contenedorEnviadoContacto h5{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
     }
 }
   

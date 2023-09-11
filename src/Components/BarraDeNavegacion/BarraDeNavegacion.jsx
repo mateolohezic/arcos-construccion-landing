@@ -14,7 +14,7 @@ function BarraDeNavegacion() {
                 <a className="navbar-brand navbarBrandResponsive" href="/" draggable={false}>
                     <img src={logo} alt="Logo Barra de Navegación" draggable={false}/>
                 </a>
-                <button className="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal" aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Expandir" onClick={() => setOpen(!open)}>
+                <button className="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPrincipal" aria-controls="navbarPrincipal" aria-expanded="false" aria-label="Expandir">
                     <label className="burger" htmlFor="burgerButton">
                         <input type="checkbox" id="burgerButton"/>
                         <span></span>
