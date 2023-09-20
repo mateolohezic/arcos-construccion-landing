@@ -20,8 +20,8 @@ function ContactoHome() {
           if (contactFormElement) {
             contactFormElement.scrollIntoView({
               behavior: 'smooth',
-              block: 'center', // This centers the element vertically
-              inline: 'nearest', // This aligns the element to the nearest edge horizontally
+              block: 'center',
+              inline: 'nearest',
             });
           }
         }
@@ -39,10 +39,10 @@ function ContactoHome() {
                     message: data.message
                 };
                 await emailjs.send(
-                    'service_11pwzne',
-                    'template_1s1k30b',
+                    import.meta.env.VITE_CONTACT_KEY_1,
+                    import.meta.env.VITE_CONTACT_KEY_2,
                     templateParams,
-                    '78Cg4v7JU8v5SrVhh'
+                    import.meta.env.VITE_CONTACT_KEY_3
                 );
                 setLoading(false);
                 setSended(true)
