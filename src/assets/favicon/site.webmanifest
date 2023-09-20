@@ -3,7 +3,7 @@
     "short_name": "Arcos",
     "icons": [
         {
-            "src": "/android-chrome-36x36.png",
+            "src": "/src/assets/favicon/android-chrome-36x36.png",
             "sizes": "36x36",
             "type": "image/png",
             "purpose":"any"
