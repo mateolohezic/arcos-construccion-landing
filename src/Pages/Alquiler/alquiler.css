@@ -2,7 +2,7 @@
     width: 100%;
     padding-top: 450px;
     position: relative;
-    background-image: url("../../assets/portadaAlquiler.jpg");
+    background-image: url("../../assets/portadaAlquiler.webp");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.4);
@@ -20,7 +20,7 @@
     width: 100%;
     padding-top: 450px;
     position: relative;
-    background-image: url("../../assets/portadaAlquiler.jpg");
+    background-image: url("../../assets/portadaAlquiler.webp");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.4);

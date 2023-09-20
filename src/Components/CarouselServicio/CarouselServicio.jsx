@@ -31,7 +31,7 @@ function CarouselServicio(props) {
             {
             fotos.map( foto => (
                 <div className='itemCarouselFotosHome' key={foto}>
-                    <img src={foto} alt={`${props.servicio} Arcos Construcción`} draggable={false}/>
+                    <img src={foto} alt={`${props.servicio} Arcos Construcción`} draggable={false} loading="lazy"/>
                 </div>
             ))
             }

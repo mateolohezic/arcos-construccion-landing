@@ -2,18 +2,18 @@ import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './carouselFotosHome.css'
-import foto1 from '../../assets/carouselFotosHome/carousel1.jpg'
-import foto2 from '../../assets/carouselFotosHome/carousel2.jpg'
-import foto3 from '../../assets/carouselFotosHome/carousel3.jpg'
-import foto4 from '../../assets/carouselFotosHome/carousel4.jpg'
-import foto5 from '../../assets/carouselFotosHome/carousel5.jpg'
-import foto6 from '../../assets/carouselFotosHome/carousel6.jpg'
-import foto7 from '../../assets/carouselFotosHome/carousel7.jpg'
-import foto8 from '../../assets/carouselFotosHome/carousel8.jpg'
-import foto9 from '../../assets/carouselFotosHome/carousel9.jpg'
-import foto10 from '../../assets/carouselFotosHome/carousel10.jpg'
-import foto11 from '../../assets/carouselFotosHome/carousel11.jpg'
-import foto12 from '../../assets/carouselFotosHome/carousel12.jpg'
+import foto1 from '../../assets/carouselFotosHome/carousel1.webp'
+import foto2 from '../../assets/carouselFotosHome/carousel2.webp'
+import foto3 from '../../assets/carouselFotosHome/carousel3.webp'
+import foto4 from '../../assets/carouselFotosHome/carousel4.webp'
+import foto5 from '../../assets/carouselFotosHome/carousel5.webp'
+import foto6 from '../../assets/carouselFotosHome/carousel6.webp'
+import foto7 from '../../assets/carouselFotosHome/carousel7.webp'
+import foto8 from '../../assets/carouselFotosHome/carousel8.webp'
+import foto9 from '../../assets/carouselFotosHome/carousel9.webp'
+import foto10 from '../../assets/carouselFotosHome/carousel10.webp'
+import foto11 from '../../assets/carouselFotosHome/carousel11.webp'
+import foto12 from '../../assets/carouselFotosHome/carousel12.webp'
 
 function CarouselFotosHome() {
 
@@ -44,7 +44,7 @@ function CarouselFotosHome() {
             {
             fotos.map( foto => (
                 <div className='itemCarouselFotosHome' key={foto}>
-                    <img src={foto} alt="Arcos Construcción en acción" draggable={false}/>
+                    <img src={foto} alt="Arcos Construcción en acción" draggable={false} loading="lazy"/>
                 </div>
             ))
             }

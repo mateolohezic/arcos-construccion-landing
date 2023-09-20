@@ -95,7 +95,7 @@ function Clientes() {
                     {
                         logos.map( logo => (
                             <div className='itemLogoClientes' key={logo.alt}>
-                                <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false}/>
+                                <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false} loading="lazy"/>
                             </div>
                         ))
                     }

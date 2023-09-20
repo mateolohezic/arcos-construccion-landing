@@ -8,7 +8,7 @@ function DescargarCarpeta() {
     <>
         <div className='descargarCarpetaComercial'>
             <h2>Conoce algunos de nuestros proyectos descargando nuestra carpeta comercial.</h2>
-            <img src={downloadIcon} alt="Descargar carpeta comercial" />
+            <img src={downloadIcon} alt="Descargar carpeta comercial" loading="lazy"/>
             <a href={carpetaComercial} download>
                 <button type='button'>
                     Descargar

@@ -106,7 +106,7 @@ function EmpresasClientesHome() {
                 {
                     logos.map( logo => (
                         <div className='itemCarouselEmpresasClientesHome' key={logo.alt}>
-                            <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false}/>
+                            <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false} loading="lazy"/>
                         </div>
                     ))
                 }

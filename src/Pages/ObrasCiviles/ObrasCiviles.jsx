@@ -3,11 +3,11 @@ import './obrasCiviles.css'
 import DescargarCarpeta from '../../Components/DescargarCarpeta/DescargarCarpeta'
 import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
 import { Helmet, HelmetProvider } from 'react-helmet-async'
-import foto1 from '../../assets/obrasCiviles/obrasCiviles1.jpg'
-import foto2 from '../../assets/obrasCiviles/obrasCiviles2.jpg'
-import foto3 from '../../assets/obrasCiviles/obrasCiviles3.jpg'
-import foto4 from '../../assets/obrasCiviles/obrasCiviles4.jpg'
-import foto5 from '../../assets/obrasCiviles/obrasCiviles5.jpg'
+import foto1 from '../../assets/obrasCiviles/obrasCiviles1.webp'
+import foto2 from '../../assets/obrasCiviles/obrasCiviles2.webp'
+import foto3 from '../../assets/obrasCiviles/obrasCiviles3.webp'
+import foto4 from '../../assets/obrasCiviles/obrasCiviles4.webp'
+import foto5 from '../../assets/obrasCiviles/obrasCiviles5.webp'
 
 function ObrasCiviles() {
 

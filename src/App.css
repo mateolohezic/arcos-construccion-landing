@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'Avant Garde';
+    font-style: normal;
     src: url('./assets/AvantGarde.woff');
+    font-display: swap;
 }
 
 :root {

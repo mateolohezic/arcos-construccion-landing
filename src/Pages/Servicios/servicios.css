@@ -7,7 +7,7 @@
     width: 100%;
     padding-top: 450px;
     position: relative;
-    background-image: url("../../assets/portadaServicios2.jpg");
+    background-image: url("../../assets/portadaServicios2.webp");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.4);
@@ -25,7 +25,7 @@
     width: 100%;
     padding-top: 450px;
     position: relative;
-    background-image: url("../../assets/portadaServicios2.jpg");
+    background-image: url("../../assets/portadaServicios2.webp");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.4);
@@ -129,7 +129,7 @@
     height: 500px;
     flex-grow: 1;
     transition: all .3s ease;
-    background-image: url("../../assets/portadaServicios2.jpg");
+    background-image: url("../../assets/portadaServicios2.webp");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.2);
@@ -164,7 +164,7 @@
 }
 
 .contenedorFotosServicios a:nth-child(1){
-    background-image: url("../../assets/obrasCivilesServicios.jpg");
+    background-image: url("../../assets/obrasCivilesServicios.webp");
     background-position: 50% 60%;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .contenedorFotosServicios a:nth-child(2){
-    background-image: url("../../assets/serviciosServicios.jpg");
+    background-image: url("../../assets/serviciosServicios.webp");
     background-position: 50% 30%;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .contenedorFotosServicios a:nth-child(3){
-    background-image: url("../../assets/servicio3.jpg");
+    background-image: url("../../assets/servicio3.webp");
     background-position: 50% 0%;
 }
 
@@ -191,7 +191,7 @@
 }
 
 .contenedorFotosServicios a:nth-child(4){
-    background-image: url("../../assets/portadaServicios.jpeg");
+    background-image: url("../../assets/portadaServicios.webp");
     background-position: 100% 100%;
 }
 
@@ -268,22 +268,22 @@
     }
 
     .contenedorFotosServicios a:nth-child(1){
-        background-image: url("../../assets/obrasCivilesServicios.jpg");
+        background-image: url("../../assets/obrasCivilesServicios.webp");
         background-position: 50% 50%;
     }
     
     .contenedorFotosServicios a:nth-child(2){
-        background-image: url("../../assets/serviciosServicios.jpg");
+        background-image: url("../../assets/serviciosServicios.webp");
         background-position: 50% 50%;
     }
     
     .contenedorFotosServicios a:nth-child(3){
-        background-image: url("../../assets/servicio3.jpg");
+        background-image: url("../../assets/servicio3.webp");
         background-position: 50% 50%;
     }
     
     .contenedorFotosServicios a:nth-child(4){
-        background-image: url("../../assets/portadaServicios.jpeg");
+        background-image: url("../../assets/portadaServicios.webp");
         background-position: 50% 50%;
     }
 }
@@ -356,22 +356,22 @@
     }
 
     .contenedorFotosServicios a:nth-child(1){
-        background-image: url("../../assets/obrasCivilesServicios.jpg");
+        background-image: url("../../assets/obrasCivilesServicios.webp");
         background-position: 50% 50%;
     }
     
     .contenedorFotosServicios a:nth-child(2){
-        background-image: url("../../assets/serviciosServicios.jpg");
+        background-image: url("../../assets/serviciosServicios.webp");
         background-position: 50% 50%;
     }
     
     .contenedorFotosServicios a:nth-child(3){
-        background-image: url("../../assets/servicio3.jpg");
+        background-image: url("../../assets/servicio3.webp");
         background-position: 50% 50%;
     }
     
     .contenedorFotosServicios a:nth-child(4){
-        background-image: url("../../assets/portadaServicios.jpeg");
+        background-image: url("../../assets/portadaServicios.webp");
         background-position: 50% 50%;
     }
 }

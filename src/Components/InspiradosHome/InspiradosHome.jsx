@@ -13,7 +13,7 @@ function InspiradosHome() {
                 <h5>ARQUITECTURA, CONSTRUCCIÓN Y SERVICIOS</h5>
             </div>
             <div className='logoInspiradosHome'>
-                <img src={logo} alt="Inspirados Logo Arcos Construcción" draggable={false}/>
+                <img src={logo} alt="Inspirados Logo Arcos Construcción" draggable={false} loading="lazy"/>
             </div>
         </div>
     </div>
