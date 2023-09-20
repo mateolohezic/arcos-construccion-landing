@@ -8,6 +8,12 @@ import foto3 from '../../assets/carouselFotosHome/carousel3.jpg'
 import foto4 from '../../assets/carouselFotosHome/carousel4.jpg'
 import foto5 from '../../assets/carouselFotosHome/carousel5.jpg'
 import foto6 from '../../assets/carouselFotosHome/carousel6.jpg'
+import foto7 from '../../assets/carouselFotosHome/carousel7.jpg'
+import foto8 from '../../assets/carouselFotosHome/carousel8.jpg'
+import foto9 from '../../assets/carouselFotosHome/carousel9.jpg'
+import foto10 from '../../assets/carouselFotosHome/carousel10.jpg'
+import foto11 from '../../assets/carouselFotosHome/carousel11.jpg'
+import foto12 from '../../assets/carouselFotosHome/carousel12.jpg'
 
 function CarouselFotosHome() {
 
@@ -30,7 +36,7 @@ function CarouselFotosHome() {
         }
     };
 
-    const fotos = [ foto1, foto2, foto3, foto4, foto5, foto6 ]
+    const fotos = [ foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11, foto12 ]
 
     return (
     <>

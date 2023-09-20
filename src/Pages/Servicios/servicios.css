@@ -7,7 +7,7 @@
     width: 100%;
     padding-top: 450px;
     position: relative;
-    background-image: url("../../assets/portadaServicios2.jpeg");
+    background-image: url("../../assets/portadaServicios2.jpg");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.4);
@@ -25,7 +25,7 @@
     width: 100%;
     padding-top: 450px;
     position: relative;
-    background-image: url("../../assets/portadaServicios2.jpeg");
+    background-image: url("../../assets/portadaServicios2.jpg");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.4);
@@ -129,7 +129,7 @@
     height: 500px;
     flex-grow: 1;
     transition: all .3s ease;
-    background-image: url("../../assets/portadaServicios2.jpeg");
+    background-image: url("../../assets/portadaServicios2.jpg");
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgb(31, 31, 31, 0.2);
@@ -182,7 +182,7 @@
 }
 
 .contenedorFotosServicios a:nth-child(3){
-    background-image: url("../../assets/servicio3.webp");
+    background-image: url("../../assets/servicio3.jpg");
     background-position: 50% 0%;
 }
 
@@ -278,7 +278,7 @@
     }
     
     .contenedorFotosServicios a:nth-child(3){
-        background-image: url("../../assets/servicio3.webp");
+        background-image: url("../../assets/servicio3.jpg");
         background-position: 50% 50%;
     }
     
@@ -366,7 +366,7 @@
     }
     
     .contenedorFotosServicios a:nth-child(3){
-        background-image: url("../../assets/servicio3.webp");
+        background-image: url("../../assets/servicio3.jpg");
         background-position: 50% 50%;
     }
     

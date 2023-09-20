@@ -1,0 +1,40 @@
+.descargarCarpetaComercial{
+    background-color: var(--azul-oscuro);
+    padding: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descargarCarpetaComercial h2{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.descargarCarpetaComercial > img{
+    margin-top: 1rem;
+    width: 40px;
+}
+
+.descargarCarpetaComercial a{
+    margin-top: 1rem;
+}
+
+.descargarCarpetaComercial a button{
+    width: 160px;
+    height: 40px;
+    background-color: var(--blanco);
+    border-radius: 0.5rem;
+    color: var(--azul-oscuro);
+    transition: all .3s ease;
+}
+
+.descargarCarpetaComercial a button:hover{
+    transform: scale(1.05);
+}

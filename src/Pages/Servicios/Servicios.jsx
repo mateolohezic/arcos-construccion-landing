@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './servicios.css'
-import foto1 from '../../assets/servicio1.webp'
 
 function Servicios() {
     
@@ -38,7 +37,7 @@ function Servicios() {
                 </a>
                 <a href="/Servicios/Desarrollos">
                 </a>
-                <a href="/Servicios/Alquileres">
+                <a href="/Servicios/Alquiler-de-equipos">
                 </a>
             </div>
         </div>

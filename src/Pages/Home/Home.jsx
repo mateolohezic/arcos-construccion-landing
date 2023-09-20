@@ -10,6 +10,7 @@ import ServiciosHome from '../../Components/ServiciosHome/ServiciosHome';
 import BarraImagenHome from '../../Components/BarraImagenHome/BarraImagenHome';
 import ContactoHome from '../../Components/ContactoHome/ContactoHome';
 import MapsHome from '../../Components/MapsHome/MapsHome';
+import DescargarCarpeta from '../../Components/DescargarCarpeta/DescargarCarpeta';
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <EmpresasClientesHome />
       <ServiciosHome />
       <BarraImagenHome />
+      <DescargarCarpeta/>
       <ContactoHome />
       <MapsHome />
     </>

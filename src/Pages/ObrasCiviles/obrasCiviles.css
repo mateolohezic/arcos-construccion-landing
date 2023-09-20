@@ -1,0 +1,85 @@
+.contenedorPrincipalObrasCiviles{
+    margin-top: 6.9rem;
+    width: 100%;
+}
+
+.portadaObrasCiviles{
+    width: 100%;
+    padding-top: 450px;
+    position: relative;
+    background-image: url("../../assets/obrasCivilesPortada.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.4);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.portadaIphoneObrasCiviles{
+    width: 100%;
+    padding-top: 450px;
+    position: relative;
+    background-image: url("../../assets/obrasCivilesPortada.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.4);
+    background-position: 50% 60%;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.portadaObrasCiviles h1, .portadaIphoneObrasCiviles h1{
+    width: 100%;
+    text-align: start;
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 500;
+    text-shadow: 5px 5px 6px rgba( 31, 31, 31, 0.3);
+}
+
+.introduccionObrasCiviles{
+    width: 1200px;
+    padding: 3rem 0rem 3rem  0rem;
+    margin: auto;
+    text-align: center;
+}
+
+.introduccionObrasCiviles h2{
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.introduccionObrasCiviles h3{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid rgb(21, 21, 21, 0.2);
+    font-family: var(--font-avant);
+    color: var(--azul);
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.introduccionObrasCiviles p{
+    margin-top: 1.5rem;
+    color: var(--azul);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+}

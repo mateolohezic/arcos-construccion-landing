@@ -1,8 +1,8 @@
 import React from 'react'
 import './serviciosHome.css'
 import servicio1 from '../../assets/servicio1.jpg'
-import servicio2 from '../../assets/servicio2.webp'
-import servicio3 from '../../assets/servicio3.webp'
+import servicio2 from '../../assets/servicio2.jpg'
+import servicio3 from '../../assets/servicio3.jpg'
 import servicio4 from '../../assets/servicio4.webp'
 import handshake from '../../assets/handshakeIcon.png'
 
