@@ -18,7 +18,7 @@
 }
 
 .descargarCarpetaComercial > img{
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 40px;
 }
 
@@ -37,4 +37,59 @@
 
 .descargarCarpetaComercial a button:hover{
     transform: scale(1.05);
+}
+  
+@media (max-width: 576px) {
+
+    .descargarCarpetaComercial{
+        padding: 3rem 1rem;
+    }
+
+    .descargarCarpetaComercial h2{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .descargarCarpetaComercial > img{
+        width: 25px;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+      
+    .descargarCarpetaComercial{
+        padding: 3rem 1rem;
+    }
+
+    .descargarCarpetaComercial h2{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .descargarCarpetaComercial > img{
+        width: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    
+    .descargarCarpetaComercial{
+        padding: 3rem 1rem;
+    }
+
+    .descargarCarpetaComercial h2{
+        width: 100%;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+}
+  
+@media (min-width: 1200px) and (max-width: 1920px) {
+  
+}
+
+@media (min-width: 1920px) {
+
 }

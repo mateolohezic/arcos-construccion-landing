@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './desarrollos.css'
 import DescargarCarpeta from '../../Components/DescargarCarpeta/DescargarCarpeta'
+import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import foto1 from '../../assets/desarrollos/desarrollos1.jpg'
 import foto2 from '../../assets/desarrollos/desarrollos2.jpg'
 import foto3 from '../../assets/desarrollos/desarrollos3.jpg'
@@ -13,7 +15,6 @@ import foto9 from '../../assets/desarrollos/desarrollos9.jpg'
 import foto10 from '../../assets/desarrollos/desarrollos10.jpg'
 import foto11 from '../../assets/desarrollos/desarrollos11.jpg'
 import foto12 from '../../assets/desarrollos/desarrollos12.jpg'
-import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
 
 function Desarrollos() {
         
@@ -29,6 +30,13 @@ function Desarrollos() {
 
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="En Arcos Construcción, desempeñamos un papel activo y fundamental en el impulso del desarrollo industrial y urbano en toda la región del Noroeste argentino (NOA). Nuestra participación abarca una amplia variedad con un compromiso inquebrantable tanto en el ámbito privado como en el público." />
+                <meta name="subject" content="Desarrollos - Arcos Construcción" />
+                <title>Desarrollos | Arcos Construcción</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='contenedorPrincipalObrasCiviles'>
             <div className={ isIphone ? 'portadaIphoneDesarrollos' : 'portadaDesarrollos' }>
                 <h1>DESARROLLOS</h1>

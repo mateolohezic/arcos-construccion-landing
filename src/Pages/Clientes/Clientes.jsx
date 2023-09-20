@@ -1,5 +1,6 @@
 import React from 'react'
 import './clientes.css'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import foto1 from '../../assets/empresasClientes/azucarBermejoBolivia.webp'
 import foto2 from '../../assets/empresasClientes/calsa.webp'
 import foto3 from '../../assets/empresasClientes/cencosud.webp'
@@ -78,6 +79,13 @@ function Clientes() {
 
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="Desde 1970, hemos estado ofreciendo una amplia gama de servicios profesionales y aprovechando nuestra rica experiencia para guiar a cada cliente a lo largo de todo el proceso de sus proyectos. Nos esforzamos constantemente por comprender las necesidades de nuestros clientes y entregar resultados excepcionales. A lo largo de los años, hemos tenido el privilegio de colaborar con destacadas empresas, algunas de las cuales incluyen:" />
+                <meta name="subject" content="Clientes - Arcos Construcción" />
+                <title>Clientes | Arcos Construcción</title>
+            </Helmet>
+        </HelmetProvider>
         <div className="contenedorPrincipalClientes">
             <div className='contenidoClientes'>
                 <h1>NUESTROS CLIENTES</h1>

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './serviciosDetalles.css'
 import DescargarCarpeta from '../../Components/DescargarCarpeta/DescargarCarpeta'
+import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import foto1 from '../../assets/servicios/servicios1.jpg'
 import foto2 from '../../assets/servicios/servicios2.jpg'
 import foto3 from '../../assets/servicios/servicios3.jpg'
@@ -13,7 +15,6 @@ import foto9 from '../../assets/servicios/servicios9.jpg'
 import foto10 from '../../assets/servicios/servicios10.jpg'
 import foto11 from '../../assets/servicios/servicios11.jpg'
 import foto12 from '../../assets/servicios/servicios12.jpg'
-import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
 
 function ServiciosDetalles() {
     
@@ -29,6 +30,13 @@ function ServiciosDetalles() {
 
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="En Arcos Construcción, nos enorgullece ser líderes en la especialización de obras de gasoductos. Desde nuestros comienzos en la década de 1970, hemos desempeñado un papel fundamental en el desarrollo productivo de nuestro país. Durante más de cuatro décadas, hemos aplicado nuestro profundo conocimiento y dedicación incansable para llevar a cabo proyectos de gasoductos complejos y exigentes que son esenciales para el crecimiento y la prosperidad de nuestra nación." />
+                <meta name="subject" content="Servicios Básicos - Arcos Construcción" />
+                <title>Servicios | Arcos Construcción</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='contenedorPrincipalObrasCiviles'>
             <div className={ isIphone ? 'portadaIphoneServiciosDetalles' : 'portadaServiciosDetalles' }>
                 <h1>SERVICIOS</h1>

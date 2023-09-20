@@ -83,3 +83,69 @@
     line-height: 1.5rem;
     font-weight: 300;
 }
+  
+@media (max-width: 576px) {
+      
+    .portadaObrasCiviles h1, .portadaIphoneObrasCiviles h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .introduccionObrasCiviles{
+        width: 100%;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .introduccionObrasCiviles h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .introduccionObrasCiviles h3{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .introduccionObrasCiviles p{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+        
+    .portadaObrasCiviles h1, .portadaIphoneObrasCiviles h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .introduccionObrasCiviles{
+        width: 100%;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+
+    .introduccionObrasCiviles h2{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    .introduccionObrasCiviles h3{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .introduccionObrasCiviles p{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .introduccionObrasCiviles{
+        width: 100%;
+        padding: 3rem 1rem 3rem 1rem;
+    }
+}

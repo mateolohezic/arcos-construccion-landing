@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './obrasCiviles.css'
 import DescargarCarpeta from '../../Components/DescargarCarpeta/DescargarCarpeta'
 import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import foto1 from '../../assets/obrasCiviles/obrasCiviles1.jpg'
 import foto2 from '../../assets/obrasCiviles/obrasCiviles2.jpg'
 import foto3 from '../../assets/obrasCiviles/obrasCiviles3.jpg'
@@ -22,6 +23,13 @@ function ObrasCiviles() {
 
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="En Arcos Construcción, nos apasiona convertir tus proyectos en realidades tangibles. Nos enorgullecemos de ofrecerte una amplia experiencia y conocimiento en el campo, donde la construcción se encuentra con la excelencia. A lo largo de nuestra trayectoria, hemos tenido el privilegio de ser partícipes activos en un amplio espectro de obras, abarcando tanto el sector privado como el público." />
+                <meta name="subject" content="Obras Civiles - Arcos Construcción" />
+                <title>Obras Civiles | Arcos Construcción</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='contenedorPrincipalObrasCiviles'>
             <div className={ isIphone ? 'portadaIphoneObrasCiviles' : 'portadaObrasCiviles' }>
                 <h1>OBRAS CIVILES</h1>

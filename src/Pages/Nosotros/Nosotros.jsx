@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './nosotros.css'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 function Nosotros() {
 
@@ -13,6 +14,13 @@ function Nosotros() {
 
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="Somos una empresa constructora especializada en proyectos de Obras Públicas y Privadas, con una destacada presencia en diversas áreas que abarcan desde Obras Civiles, Infraestructura e Industria, Gas, Electricidad, Incendio, Agua y Saneamiento." />
+                <meta name="subject" content="Nosotros - Arcos Construcción" />
+                <title>Nosotros | Arcos Construcción</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='contenedorPrincipalNosotros'>
             <div className={ isIphone ? 'portadaIphoneNosotros' : 'portadaNosotros' }>
                 <h1>NOSOTROS</h1>

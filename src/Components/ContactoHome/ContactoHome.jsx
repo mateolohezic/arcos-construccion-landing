@@ -15,7 +15,15 @@ function ContactoHome() {
     useEffect(() => {
         const hash = window.location.hash;
         if (hash === '#contactForm') {
-          contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
+          const contactFormElement = contactFormRef.current;
+      
+          if (contactFormElement) {
+            contactFormElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'center', // This centers the element vertically
+              inline: 'nearest', // This aligns the element to the nearest edge horizontally
+            });
+          }
         }
       }, []);
 
@@ -49,10 +57,10 @@ function ContactoHome() {
     <>
         {
         !sended ? <>
-            <div className='contenedorContactoHome' ref={contactFormRef} id='contactForm'>
+            <div className='contenedorContactoHome' id='contactForm'>
                 <h2>CONTACTO</h2>
                 <h5>Conéctate con nosotros, ¡Tu proximo paso hacia la solución!</h5>
-                <form onSubmit={handleSubmit(onSubmit)} className='formContactoHome'>
+                <form onSubmit={handleSubmit(onSubmit)} className='formContactoHome' ref={contactFormRef}>
                     <div className='filaInputContactoHome'>
                         <div className='inputContactoHome inputChicoContactoHome'>
                             <label htmlFor="nameContacto">Nombre</label>
@@ -140,7 +148,7 @@ function ContactoHome() {
                         </div>
                     </div>
                     <div className='submitBotonContactoHome'>
-                        <button type="submit" disabled={ loading ? true : false }>
+                        <button type="submit" disabled={loading}>
                             {loading ? (
                             <>
                                 <span

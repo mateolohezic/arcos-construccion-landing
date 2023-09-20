@@ -43,3 +43,19 @@
     font-weight: 500;
     text-shadow: 5px 5px 6px rgba( 31, 31, 31, 0.3);
 }
+  
+@media (max-width: 576px) {
+          
+    .portadaAlquiler h1, .portadaIphoneAlquiler h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+}
+  
+@media (min-width: 576px) and (max-width: 992px) {
+          
+    .portadaAlquiler h1, .portadaIphoneAlquiler h1{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+}

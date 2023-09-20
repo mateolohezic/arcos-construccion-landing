@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './alquiler.css'
 import DescargarCarpeta from '../../Components/DescargarCarpeta/DescargarCarpeta'
+import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import foto1 from '../../assets/alquiler/alquiler1.jpg'
 import foto2 from '../../assets/alquiler/alquiler2.jpg'
 import foto3 from '../../assets/alquiler/alquiler3.jpg'
@@ -12,7 +14,6 @@ import foto8 from '../../assets/alquiler/alquiler8.jpg'
 import foto9 from '../../assets/alquiler/alquiler9.jpg'
 import foto10 from '../../assets/alquiler/alquiler10.jpg'
 import foto11 from '../../assets/alquiler/alquiler11.jpg'
-import CarouselServicio from '../../Components/CarouselServicio/CarouselServicio'
 
 function Alquiler() {
             
@@ -28,6 +29,13 @@ function Alquiler() {
 
     return (
     <>
+        <HelmetProvider>
+            <Helmet>
+                <meta name="description" content="En Arcos Construcción, entendemos que tener acceso a equipos de calidad marca la diferencia en la eficiencia y el éxito de cualquier proyecto. Por eso, ponemos a tu disposición nuestra flota de equipos de vanguardia para garantizar una ejecución rápida, cómoda y segura en una amplia variedad de obras." />
+                <meta name="subject" content="Alquiler de equipos - Arcos Construcción" />
+                <title>Alquiler de equipos | Arcos Construcción</title>
+            </Helmet>
+        </HelmetProvider>
         <div className='contenedorPrincipalObrasCiviles'>
             <div className={ isIphone ? 'portadaIphoneAlquiler' : 'portadaAlquiler' }>
                 <h1>ALQUILER</h1>
