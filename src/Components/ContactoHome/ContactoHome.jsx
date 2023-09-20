@@ -47,6 +47,7 @@ function ContactoHome() {
                 setLoading(false);
                 setSended(true)
             } catch (error) {
+                console.log(error);
                 setLoading(false);
                 setErrorMessage(true)
             }
