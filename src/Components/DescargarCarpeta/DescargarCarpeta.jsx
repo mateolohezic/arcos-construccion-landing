@@ -1,7 +1,7 @@
 import React from 'react'
 import './descargarCarpeta.css'
 import downloadIcon from '../../assets/downloadIcon.png'
-import carpetaComercial from '../../assets/carpetaComercialArcosConstruccion.pdf'
+import carpetaComercial from '../../assets/CarpetaComercialArcosConstruccion.pdf'
 
 function DescargarCarpeta() {
     return (
