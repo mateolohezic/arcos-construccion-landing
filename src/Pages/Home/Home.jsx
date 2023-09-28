@@ -20,7 +20,7 @@ function Home() {
         <Helmet>
           <meta name="description" content="Somos Arcos Construcción, donde la experiencia trasciende el tiempo y la versatilidad define nuestro enfoque. Con medio siglo de experiencia en la industria, hemos forjado un camino de excelencia que se refleja en cada proyecto." />
           <meta name="subject" content="Inicio - Arcos Construcción" />
-          <title>Inicio | Arcos Construcción</title>
+          <title>Arcos Construcción</title>
         </Helmet>
       </HelmetProvider>
       <PortadaHome />
