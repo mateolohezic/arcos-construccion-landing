@@ -237,6 +237,10 @@
         align-items: center;
         width: calc(50% - 25px);
     }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-inline: 0;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1920px){
@@ -271,6 +275,10 @@
         align-items: center;
         width: calc(50% - 25px);
     }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-inline: 0;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -304,5 +312,9 @@
         justify-content: end;
         align-items: center;
         width: calc(50% - 25px);
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-inline: 0;
     }
 }
