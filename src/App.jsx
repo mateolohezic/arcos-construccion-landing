@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import './App.css'
 import BarraDeNavegacion from './Components/BarraDeNavegacion/BarraDeNavegacion';
@@ -19,6 +19,7 @@ function App() {
     <BarraDeNavegacion />
     <Routes>
       <Route path="/" element={<Home/>} />
+      <Route path="/*" element={<Navigate to="/" />} />
       <Route path="/Nosotros" element={<Nosotros/>} />
       <Route path="/Servicios" element={<Servicios/>} />
       <Route path="/Clientes" element={<Clientes/>} />
