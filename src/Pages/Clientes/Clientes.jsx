@@ -1,5 +1,6 @@
 import React from 'react'
 import './clientes.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import foto1 from '../../assets/empresasClientes/azucarBermejoBolivia.webp'
 import foto2 from '../../assets/empresasClientes/calsa.webp'
@@ -95,7 +96,11 @@ function Clientes() {
                     {
                         logos.map( logo => (
                             <div className='itemLogoClientes' key={logo.alt}>
-                                <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false} loading="lazy"/>
+                                <LazyLoadImage
+                                    alt={`${logo.alt} Arcos Construcción`}
+                                    src={logo.src}
+                                    draggable={false}
+                                />
                             </div>
                         ))
                     }

@@ -1,6 +1,7 @@
 import React from 'react'
 import './inspiradosHome.css'
 import logo from '../../assets/logoNombre.png'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function InspiradosHome() {
   return (
@@ -13,7 +14,11 @@ function InspiradosHome() {
                 <h5>ARQUITECTURA, CONSTRUCCIÓN Y SERVICIOS</h5>
             </div>
             <div className='logoInspiradosHome'>
-                <img src={logo} alt="Inspirados Logo Arcos Construcción" draggable={false} loading="lazy"/>
+              <LazyLoadImage
+                alt="Inspirados Logo Arcos Construcción"
+                src={logo}
+                draggable={false}
+              />
             </div>
         </div>
     </div>

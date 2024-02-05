@@ -1,6 +1,7 @@
 import React from 'react'
 import './empresasClientesHome.css'
 import Carousel from 'react-multi-carousel';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import foto1 from '../../assets/empresasClientes/azucarBermejoBolivia.webp'
 import foto2 from '../../assets/empresasClientes/calsa.webp'
 import foto3 from '../../assets/empresasClientes/cencosud.webp'
@@ -106,7 +107,11 @@ function EmpresasClientesHome() {
                 {
                     logos.map( logo => (
                         <div className='itemCarouselEmpresasClientesHome' key={logo.alt}>
-                            <img src={logo.src} alt={`${logo.alt} Arcos Construcción`} draggable={false} loading="lazy"/>
+                          <LazyLoadImage
+                            alt={`${logo.alt} Arcos Construcción`}
+                            src={logo.src}
+                            draggable={false}
+                          />
                         </div>
                     ))
                 }

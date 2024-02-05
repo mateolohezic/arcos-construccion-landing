@@ -1,5 +1,6 @@
 import React from 'react'
 import './mapsHome.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import arrow from '../../assets/arrowDownAzul.png'
 
 function MapsHome() {
@@ -7,7 +8,11 @@ function MapsHome() {
     <>
         <div className='tituloMapsHome'>
             <h2>Encuéntranos aquí</h2>
-            <img src={arrow} alt="Ubicación Arcos Construcción" draggable={false} loading="lazy"/>
+            <LazyLoadImage
+                alt="Ubicación Arcos Construcción"
+                src={arrow}
+                draggable={false}
+            />
         </div>
         <div className='contenedorMapsHome'>
             <iframe

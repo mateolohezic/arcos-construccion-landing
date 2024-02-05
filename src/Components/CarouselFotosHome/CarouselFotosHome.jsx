@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-multi-carousel/lib/styles.css';
 import './carouselFotosHome.css'
 import foto1 from '../../assets/carouselFotosHome/carousel1.webp'
@@ -44,7 +45,11 @@ function CarouselFotosHome() {
             {
             fotos.map( foto => (
                 <div className='itemCarouselFotosHome' key={foto}>
-                    <img src={foto} alt="Arcos Construcción en acción" draggable={false} loading="lazy"/>
+                  <LazyLoadImage
+                    alt="Arcos Construcción en acción"
+                    src={foto}
+                    draggable={false}
+                  />
                 </div>
             ))
             }
