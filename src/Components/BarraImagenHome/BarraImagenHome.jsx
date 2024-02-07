@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './barraImagenHome.css'
 import NosotrosHome from '../NosotrosHome/NosotrosHome'
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 function BarraImagenHome() {
 
@@ -13,11 +14,11 @@ function BarraImagenHome() {
     }, [])
 
     return (
-    <>
+    <LazyLoadComponent>
         <div className={ isIphone ? 'barraImagenIphoneHome' : 'barraImagenHome' }>
             <NosotrosHome />
         </div>
-    </>
+    </LazyLoadComponent>
     )
 }
 

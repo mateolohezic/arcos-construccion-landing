@@ -3,6 +3,7 @@ import './contactoHome.css'
 import { useForm } from "react-hook-form";
 import emailjs from 'emailjs-com';
 import sendedIcon from '../../assets/sendedIcon.png';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 function ContactoHome() {
     
@@ -54,7 +55,7 @@ function ContactoHome() {
     }
     
     return (
-    <>
+    <LazyLoadComponent>
         {
         !sended ? <>
             <div className='contenedorContactoHome' id='contactForm'>
@@ -177,7 +178,7 @@ function ContactoHome() {
             </div>
         </>
         }
-    </>
+    </LazyLoadComponent>
     )
 }
 

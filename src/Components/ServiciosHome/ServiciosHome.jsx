@@ -1,6 +1,7 @@
 import React from 'react'
 import './serviciosHome.css'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import servicio1 from '../../assets/servicio1.webp'
 import servicio2 from '../../assets/servicio2.webp'
 import servicio3 from '../../assets/servicio3.webp'
@@ -9,7 +10,7 @@ import handshake from '../../assets/handshakeIcon.png'
 
 function ServiciosHome() {
     return (
-    <>
+    <LazyLoadComponent>
         <div className='contenedorServiciosHome'>
             <div className='contenidoServiciosHome'>
                 <h2>CONSTRUYENDO SOLUCIONES A LA MEDIDA</h2>
@@ -118,7 +119,7 @@ function ServiciosHome() {
                 </div>
             </div>
         </div>
-    </>
+    </LazyLoadComponent>
     )
 }
 

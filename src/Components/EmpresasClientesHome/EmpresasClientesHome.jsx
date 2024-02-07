@@ -2,6 +2,7 @@ import React from 'react'
 import './empresasClientesHome.css'
 import Carousel from 'react-multi-carousel';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import foto1 from '../../assets/empresasClientes/azucarBermejoBolivia.webp'
 import foto2 from '../../assets/empresasClientes/calsa.webp'
 import foto3 from '../../assets/empresasClientes/cencosud.webp'
@@ -98,7 +99,7 @@ function EmpresasClientesHome() {
       ];
 
     return (
-    <>
+      <LazyLoadComponent>
         <div className='contenedorEmpresasClientesHome'>
             <h2>EMPRESAS QUE FORMAN EL MUNDO DE ARCOS</h2>
             <p>Estas empresas ya confiaron en nosotros, consiguiendo un servicio de excelencia y calidad en cada paso.</p>
@@ -118,7 +119,7 @@ function EmpresasClientesHome() {
                 </Carousel>
             </div>
         </div>
-    </>
+      </LazyLoadComponent>
     )
 }
 

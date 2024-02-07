@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import 'react-multi-carousel/lib/styles.css';
 import './carouselFotosHome.css'
 import foto1 from '../../assets/carouselFotosHome/carousel1.webp'
@@ -40,7 +41,7 @@ function CarouselFotosHome() {
     const fotos = [ foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11, foto12 ]
 
     return (
-    <>
+      <LazyLoadComponent>
         <Carousel infinite autoPlay pauseOnHover centerMode arrows={false} containerClass='carouselFotosHome' responsive={responsiveCarousel}>
             {
             fotos.map( foto => (
@@ -54,7 +55,7 @@ function CarouselFotosHome() {
             ))
             }
         </Carousel>
-    </>
+      </LazyLoadComponent>
     )
 }
 
